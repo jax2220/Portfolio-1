@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* styling for banner of project page and about me page */
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.first-row, .second-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* styling for projects */
+.project1{
+    background-image: url(./img/quizApp1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    
+}
+.project-btn{
+    position: relative;
+    top: 170px;
+}
+/* styling for footer */
+footer{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+}
+.contact-me{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (min-width: 800px){
+    .banner{
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    .logo{
+        width: 70px;
+        height: 70px;
+    }
+    .project1{
+        width: 25%;
+    }
+    .bio-post{
+        width: 50%;
+        margin: auto;
+        line-height: 30px;
+        font-size: 25px;
+    }
+    .bio h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+.bio{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    line-height: 20px;
+    font-size: 20px;
+}
+.bio-post{
+    margin-top: 20px;
+}

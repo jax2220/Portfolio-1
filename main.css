@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+/* styling for my headline and profile picture */
+.banner{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px 20px;
+    
+}
+
+.head-line{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 23px;
+}
+
+
+
+/* styling for links to projects about-me github and linked in */
+.main{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.links{
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+/* syling for footer */
+footer{
+    background-color: white;
+    width: 90%;
+    margin: auto;  
+}
+
+.contact-me{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+/* for screens over 800px */
+@media screen and (min-width: 800px){
+    body{
+        background-color: white;
+    }
+
+    .banner{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .head-line{
+        width: 40%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .links{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 100px;
+    }
+    a{
+        font-size: 30px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    footer{
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+    }
+}
