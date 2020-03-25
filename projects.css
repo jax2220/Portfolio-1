@@ -43,8 +43,8 @@ a{
     margin: auto;
 }
 .project-btn{
-    position: relative;
-    top: 170px;
+    display: inline-block;
+    
     color: white;
     background-color: black;
     border: 1px solid purple;
@@ -90,7 +90,7 @@ footer{
 
 .bio{
     margin: auto;
-    text-align: center;
+    text-align: left;
     width: 80%;
     line-height: 25px;
     
