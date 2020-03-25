@@ -43,6 +43,7 @@ a{
     margin: auto;
 }
 .project-btn{
+    position: relative;
     color: white;
     background-color: black;
     border: 1px solid purple;
@@ -52,9 +53,6 @@ a{
     background-color: white;
 }
 /* styling for footer */
-footer{
-    
-}
 .contact-me{
     padding-top: 50px;
     padding-bottom: 10px;
