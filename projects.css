@@ -44,6 +44,7 @@ a{
 }
 .project-btn{
     position: relative;
+    top: 10px;
     color: white;
     background-color: black;
     border: 1px solid purple;
