@@ -43,8 +43,6 @@ a{
     margin: auto;
 }
 .project-btn{
-    display: inline-block;
-    
     color: white;
     background-color: black;
     border: 1px solid purple;
