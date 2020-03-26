@@ -53,6 +53,9 @@ a{
     color: black;
     background-color: white;
 }
+.pro-bono{
+    margin-top: 40px;
+}
 /* styling for footer */
 .contact-me{
     padding-top: 50px;
@@ -82,6 +85,10 @@ a{
     .bio h1{
         font-size: 40px;
         line-height: 40px;
+    }
+    .description{
+        width: 50%;
+        margin: auto;
     }
 }
 
