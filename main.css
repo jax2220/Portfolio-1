@@ -84,9 +84,13 @@ footer{
     .banner{
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+         align-items: center; 
         padding-top: 25px;
         padding-bottom: 25px;
+    }
+    .profile-img{
+        padding: 0;
+        margin: 0;
     }
     .head-line{
         width: 40%;
